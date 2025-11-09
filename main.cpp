@@ -277,7 +277,7 @@ int main() {
 
                   
                     
-                    // Optional safety: stop if equation stops changing
+
                     static string lastState;
                     if (CalToReplace == lastState) break;
                     lastState = CalToReplace;
@@ -362,4 +362,5 @@ int main() {
     }
 
     return 0;
+
 }
