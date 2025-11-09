@@ -10,14 +10,7 @@ using namespace std;
     char st = '(';
     char se = ')';
 
-int plus(int a, int b){
-        int res = a + b;
-        return res;
-}
-int minus(int a, int b){
-        int res = a - b;
-        return res;
-}
+
 
 bool validEquation(string eq){
     int foundLeft = 0;
@@ -364,3 +357,4 @@ int main() {
     return 0;
 
 }
+
