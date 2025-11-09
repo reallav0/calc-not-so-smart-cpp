@@ -1,4 +1,4 @@
-# Not So Smart Calc (I jumped right into doing this without knowing any basic C++ knowledges, so the codes are not really optimize and clean)
+# Not So Smart Calc (I jumped right into doing this without knowing any basic C++ knowledge, so the codes are not really optimize and clean)
 
 A simple yet powerful C++ calculator capable of evaluating mathematical expressions with addition (+), subtraction (-), multiplication (*), division (/), and parentheses ().
 It automatically checks for syntax and typing errors before evaluating the expression.
