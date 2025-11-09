@@ -317,7 +317,7 @@ int main() {
         while (equation.find("-+") != string::npos)
             equation.replace(equation.find("-+"), 2, "-");
 
-        while (equation.find(m) != string::npos || equation.find(d) != string::npos) {
+        while (equation.find(t) != string::npos || equation.find(d) != string::npos) {
                     string CalToRemove = seperator(equation);
                     if (CalToRemove.empty()) {
                         break;
